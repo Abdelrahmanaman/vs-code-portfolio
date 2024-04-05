@@ -14,17 +14,25 @@ const Sidebar = () => {
     <aside className="flex h-full">
       <div className="flex justify-between items-center flex-col h-full bg-secondary">
         <ul className="h-full md:py-2 p-1 md:px-4 flex flex-col gap-5">
-          <li>
+          <li className="hover:bg-zinc-900 p-2 rounded-md hover:text-orange-500">
+            <Link href={"/"}>
             <File className="size-8" />
+            </Link>
           </li>
-          <li>
-            <Github className="size-8" />
+          <li className="hover:bg-zinc-900 p-2 rounded-md hover:text-orange-500">
+            <Link href={"/github"}>
+              <Github className="size-8" />
+            </Link>
           </li>
-          <li>
-            <CodeXml className="size-8" />
+          <li className="hover:bg-zinc-900 p-2 rounded-md hover:text-orange-500">
+            <Link href={"/about"}>
+              <CodeXml className="size-8" />
+            </Link>
           </li>
-          <li>
-            <Mail className="size-8" />
+          <li className="hover:bg-zinc-900 p-2 rounded-md hover:text-orange-500">
+            <Link href={"/contact"} >
+              <Mail className="size-8" />
+            </Link>
           </li>
         </ul>
         <div className="flex flex-col gap-5 mb-3">

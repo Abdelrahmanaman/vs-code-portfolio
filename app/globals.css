@@ -6,6 +6,8 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --primary: #1F2428;
+  --secondary: #24292E;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -33,3 +35,7 @@ body {
 }
 
 
+.project-page{
+  scrollbar-width: thin;
+  scrollbar-color: rgb(34, 32, 32) gray;
+}

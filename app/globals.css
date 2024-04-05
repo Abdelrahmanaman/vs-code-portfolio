@@ -6,8 +6,8 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  --primary: #1F2428;
-  --secondary: #24292E;
+  --primary: #181c1e;
+  --secondary: #2a3036;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,6 +16,10 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
+}
+
+html{
+  scroll-behavior: smooth;
 }
 
 body {
@@ -35,7 +39,25 @@ body {
 }
 
 
-.project-page{
-  scrollbar-width: thin;
-  scrollbar-color: rgb(34, 32, 32) gray;
+/* .project-page{
+  scrollbar-width: 9vw;
+  scroll-bord
+  scrollbar-color: var(--secondary) var(--primary) ;
+} */
+.project-page::-webkit-scrollbar {
+  width: 1vw;
+}
+
+.project-page::-webkit-scrollbar-track {
+  background: var(--secondary);
+  border-radius: 3rem;
+}
+
+.project-page::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 3rem;
+}
+
+.project-page::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

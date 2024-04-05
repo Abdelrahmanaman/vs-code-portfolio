@@ -66,12 +66,12 @@ const ProjectsPage = () => {
               <Cpu />
             </span>
             <ul className="bg-zinc-900  rounded-md  flex gap-2 flex-wrap py-4 px-2">
-              <li className="bg-zinc-800 rounded-md p-2 text-sm font-medium">ReactJS - VITE</li>
-              <li className="bg-zinc-800 rounded-md p-2 text-sm font-medium">NodeJS</li>
-              <li className="bg-zinc-800 rounded-md p-2 text-sm font-medium">TailwindCSS</li>
-              <li className="bg-zinc-800 rounded-md p-2 text-sm font-medium">MongoDB</li>
-              <li className="bg-zinc-800 rounded-md p-2 text-sm font-medium">Mongoose</li>
-              <li className="bg-zinc-800 rounded-md p-2 text-sm font-medium">Amazon S3</li>
+              <li className="bg-zinc-800 border-2 border-red-900 rounded-md p-2 text-sm font-medium">ReactJS - VITE</li>
+              <li className="bg-zinc-800 border-2 border-purple-900 rounded-md p-2 text-sm font-medium">NodeJS</li>
+              <li className="bg-zinc-800 border-2 border-pink-900 rounded-md p-2 text-sm font-medium">TailwindCSS</li>
+              <li className="bg-zinc-800 border-2 border-blue-900 rounded-md p-2 text-sm font-medium">MongoDB</li>
+              <li className="bg-zinc-800 border-2 border-yellow-900 rounded-md p-2 text-sm font-medium">Mongoose</li>
+              <li className="bg-zinc-800 border-2 border-lime-500 rounded-md p-2 text-sm font-medium">Amazon S3</li>
             </ul>
           </div>
         </article>
@@ -101,12 +101,12 @@ const ProjectsPage = () => {
               <Cpu />
             </span>
             <ul className="bg-zinc-900 rounded-md  flex gap-2 flex-wrap py-4 px-2">
-              <li className="bg-zinc-800 rounded-md p-2 text-sm font-medium">NEXTJS</li>
-              <li className="bg-zinc-800 rounded-md p-2 text-sm font-medium">NodeJS</li>
-              <li className="bg-zinc-800 rounded-md p-2 text-sm font-medium">TailwindCSS</li>
-              <li className="bg-zinc-800 rounded-md p-2 text-sm font-medium">MongoDB</li>
-              <li className="bg-zinc-800 rounded-md p-2 text-sm font-medium">Mongoose</li>
-              <li className="bg-zinc-800 rounded-md p-2 text-sm font-medium">NEXT-AUTH</li>
+              <li className="bg-zinc-800 border-2 border-red-900 rounded-md p-2 text-sm font-medium">NEXTJS</li>
+              <li className="bg-zinc-800 border-2 border-green-950 rounded-md p-2 text-sm font-medium">NodeJS</li>
+              <li className="bg-zinc-800 border-2 border-gray-50 rounded-md p-2 text-sm font-medium">TailwindCSS</li>
+              <li className="bg-zinc-800 border-2 border-fuchsia-900 rounded-md p-2 text-sm font-medium">MongoDB</li>
+              <li className="bg-zinc-800 border-2 border-yellow-400 rounded-md p-2 text-sm font-medium">Mongoose</li>
+              <li className="bg-zinc-800 border-2 border-sky-800 rounded-md p-2 text-sm font-medium">NEXT-AUTH</li>
             </ul>
           </div>
         </article>

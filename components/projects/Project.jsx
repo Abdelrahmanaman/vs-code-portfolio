@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Cpu, Link as LucideLink, Github } from "lucide-react";
 
+
 import Link from "next/link";
 const Project = (props) => {
   return (
@@ -12,7 +13,7 @@ const Project = (props) => {
         <h2 className="text-orange-500 text-2xl underline decoration-wavy">{props.title}</h2>
         <div className="flex gap-4 items-center">
           {props?.link && (
-            <Link href={props.link} className="flex items-center gap-1 hover:bg-zinc-900 rounded-md">
+            <Link href={props.link} className="flex items-center gap-1 hover:bg-primary hover:text-cyan-500 p-2 rounded-md">
               Demo
               <LucideLink className="size-5" />
             </Link>
@@ -34,7 +35,7 @@ const Project = (props) => {
         </span>
         <ul className="bg-zinc-900  rounded-md  flex gap-2 flex-wrap py-4 px-2">
           {props.techs?.map((tech, index) => (
-            <li key={index} className="bg-zinc-800 rounded-md p-2 text-sm font-medium">
+            <li key={index} className={`bg-zinc-800 border-2 border-orange-800 rounded-md p-2 text-sm font-medium`}>
               {tech}
             </li>
           ))}

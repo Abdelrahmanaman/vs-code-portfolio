@@ -5,7 +5,7 @@ import Project from "@/components/projects/Project";
 
 const project1 = {
   title: "Hero Clash",
-  src: "",
+  src: undefined,
   description: "Hero Clash is a superhero Game where you can choose  your hero and battle against other heroes.",
   challenges: "As it was a group project the challenges I faced was in terms of micromanganging my work and coordinating tasks, this helped me to better understand Task managements apps like Trello ",
   repo: "/https://github.com/Abdelrahmanaman/Heroes-Clash",
@@ -26,14 +26,7 @@ const project3 = {
   challenges: "Since, I had no prior expierence with framer-motion and NextJS it proved to be a little tricky but once you get the hang of it, it becomes less complicated",
   link: "https://anime-library-phi.vercel.app/",
   repo: "https://github.com/Abdelrahmanaman/Anime-library",
-  techs: [
- "NEXTJS",
- "NodeJS",
- "TailwindCSS",
- "MongoDB",
- "Mongoose",
- "NEXT-AUTH"
-],
+  techs: ["NEXTJS", "NodeJS", "TailwindCSS", "MongoDB", "Mongoose", "NEXT-AUTH"],
 };
 const ProjectsPage = () => {
   return (
@@ -42,16 +35,16 @@ const ProjectsPage = () => {
       <div className="flex flex-wrap  gap-4 mb-5">
         <article className=" lg:w-96 w-full flex-grow md:border-r-4 border-b-4  px-3 py-3">
           <div className="h-80 w-full  relative">
-            <Image className="object-cover rounded-t-md size-full" src={"/project1.png"} fill sizes="100" />
+            <Image className="object-contain rounded-t-md size-full" src={"/project4.png"} fill sizes="100" />
           </div>
           <div className="flex flex-col gap-2 pb-2  ">
             <h2 className="text-orange-500 text-2xl underline decoration-wavy">Rentopia</h2>
             <div className="flex gap-4 items-center">
-              <Link href={"https://rentopia0.vercel.app/"} className="flex items-center gap-1 hover:bg-primary hover:text-cyan-400 p-2 rounded-md">
+              <Link href={"https://rentopia-x.vercel.app/"} className="flex items-center gap-1 hover:bg-primary hover:text-cyan-400 p-2 rounded-md">
                 Demo
                 <LucideLink className="size-5" />
               </Link>
-              <Link href={"https://github.com/Abdelrahmanaman/rentopia0"} className="flex items-center gap-1 hover:bg-primary hover:text-cyan-400 p-2 rounded-md">
+              <Link href={"https://github.com/Abdelrahmanaman/rentopia-x"} className="flex items-center gap-1 hover:bg-primary hover:text-cyan-400 p-2 rounded-md">
                 Github Repo
                 <Github className="size-5" />
               </Link>
@@ -66,18 +59,20 @@ const ProjectsPage = () => {
               <Cpu />
             </span>
             <ul className="bg-zinc-900  rounded-md  flex gap-2 flex-wrap py-4 px-2">
-              <li className="bg-zinc-800 border-2 border-red-900 rounded-md p-2 text-sm font-medium">ReactJS - VITE</li>
-              <li className="bg-zinc-800 border-2 border-purple-900 rounded-md p-2 text-sm font-medium">NodeJS</li>
+              <li className="bg-zinc-800 border-2 border-red-900 rounded-md p-2 text-sm font-medium">Next-JS</li>
+              <li className="bg-zinc-800 border-2 border-purple-900 rounded-md p-2 text-sm font-medium">Next-Auth</li>
               <li className="bg-zinc-800 border-2 border-pink-900 rounded-md p-2 text-sm font-medium">TailwindCSS</li>
-              <li className="bg-zinc-800 border-2 border-blue-900 rounded-md p-2 text-sm font-medium">MongoDB</li>
-              <li className="bg-zinc-800 border-2 border-yellow-900 rounded-md p-2 text-sm font-medium">Mongoose</li>
+              <li className="bg-zinc-800 border-2 border-blue-900 rounded-md p-2 text-sm font-medium">PostgresSQL</li>
+              <li className="bg-zinc-800 border-2 border-orange-700 rounded-md p-2 text-sm font-medium">Prisma</li>
+              <li className="bg-zinc-800 border-2 border-yellow-900 rounded-md p-2 text-sm font-medium">Neon</li>
+
               <li className="bg-zinc-800 border-2 border-lime-500 rounded-md p-2 text-sm font-medium">Amazon S3</li>
             </ul>
           </div>
         </article>
         <article className="lg:w-96 md:border-r-4 border-b-4  px-3 py-3  flex-grow">
           <div className="h-80 w-full relative">
-            <Image className="object-cover rounded-t-md size-full" src={"/project2.png"} fill sizes="100" />
+            <Image className="object-contain rounded-t-md size-full" src={"/project2.png"} fill sizes="100" />
           </div>
           <div className="flex flex-col gap-2 pb-2">
             <h2 className="text-orange-500 text-2xl underline decoration-wavy">Promptopia</h2>

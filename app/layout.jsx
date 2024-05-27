@@ -3,6 +3,7 @@ import "./globals.css";
 import Nav from "@/components/nav/Nav";
 import Sidebar from "@/components/sidebar/Sidebar";
 import { Tabs } from "@/components/tabs/Tabs";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const roboto = Roboto({ subsets: ["latin"], weight: ["100", "300", "400" , "500", "700", "900"] });
 
